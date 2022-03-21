@@ -13,7 +13,7 @@ Introduction to input/output pins (PIO) and input interrupt
 ## Discussion
 In this circuit, we use 3 buttons and a number of LEDs to design a circuit to understand the difference between the polling and interrupt-driven way.
 In this experiment, when the bottom button is pressed, the LEDs light up from bottom to top, respectively. also When you press the middle button, the LEDs start blinking as many characters as my name (Armin) and stay on at the end. finallly, when you press the top button, all the LEDs turns off at once.
-This circuit is designed in two ways, interrupt-driven and polling, and its files are available in the Arduino folder called Interrupt and Polling.
+This circuit is designed in two ways, interrupt-driven and polling, and its Arduino files are available in folders called Interrupt and Polling.
 
 ![proteus](https://user-images.githubusercontent.com/58389402/159357143-767abfd1-c14b-40c2-9bf8-5e02ce502939.PNG)
 ## Questions
