@@ -24,3 +24,6 @@ one of the advantages of using the interrupt-driven way is in this case. in the 
 2. Suppose that in addition to current performance, we want to add another mechanism to the circuit that changes the status of an LED on or off every 5 seconds. explain the difference between interrupt-driven and polling way.
 In the polling way, as explained in the first question, when we press and hold a button down for a long time, the circuit falls into a infinite loop and performs no function other than the function of the button and naturally until the circuit is stuck in this loop, it can not change the LED status every 5 seconds.
 but in the interrupt way, the function of each button is executed only once and the program performs the rest of its tasks.
+
+3. Suppose that if a specific pin becomes 1, a certain operation should be done, and 1 can occur at any moment and should never be lost. is it possible to design such a mechanism for this circuit by the polling way?
+According to the above explanation and because of the possibility of falling into infinite loop, no
