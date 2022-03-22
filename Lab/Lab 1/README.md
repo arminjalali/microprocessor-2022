@@ -20,3 +20,5 @@ This circuit is designed in two ways, interrupt-driven and polling, and its Ardu
 1. What happens if we hold the button down for a long time? What is the solution to this problem?\
 When we press a button and hold it down for a long time, the function that the button has to perform is done indefinitely (in polling way), and this is a kind of fault.
 one of the advantages of using the interrupt-driven way is in this case. in the interrupt-driven implementation, even if we press and hold the button down indefinitely, that button operates only once and the circuit reaches the rest of its operations, but in the polling way, the circuit falls into a infinity loop and the operation repeated many times.
+
+2. Suppose that in addition to current performance, we want to add another mechanism to the circuit that changes the status of an LED on or off every 5 seconds. explain the difference between interrupt-driven and polling way.
